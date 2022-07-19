@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "version": "0.1",
+  "description": "demo",
+  "permissions": [
+    "downloads"
+  ],
+  "background": {
+    "service_worker":"service_worker.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "incognito": "split",
+  "manifest_version": 3
+}
